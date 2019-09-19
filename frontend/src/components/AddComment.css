@@ -1,0 +1,26 @@
+.add-comment-container {
+  margin-top: 10px;
+  widows: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-comment-container input {
+  margin-left: 5px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #666;
+}
+
+.add-comment-container .add-comment-author {
+  width: 20%;
+}
+
+.add-comment-container .add-comment-comment {
+  display: flex;
+  flex: 1;
+}
